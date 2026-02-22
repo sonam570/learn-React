@@ -1,0 +1,101 @@
+*{
+  color:#000;
+}
+html
+body{
+  width:100%;
+  height: 100;
+  background-color: black;
+
+}
+.parent{
+  min-height: 100vh;
+  height: 100%;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card{
+  width: 400px;
+  height: 280px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+.top img{
+height: 40px;
+width: 40px;
+border-radius: 50px;
+border: 1px solid #dadada;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 10px;
+  border-radius: 5px;
+  gap: 2px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #e2e2e2;
+  padding-top: 10px;
+}
+.center h3{
+  font-size: 17px;
+  font-weight: 500;
+}
+.center h3 span{
+  font-size: 9px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+.center h2{
+  font-size: 20px;
+}
+.center .tag{
+  display: flex;
+  gap: 5px;
+}
+.center .tag h4{
+  font-size: 12px;
+  background-color: #dadada;
+  color: #111;
+  font-weight: 400;
+  padding: 3px 6px;
+}
+.center p{
+  font-size: 12px;
+
+}
+.bottom button{
+  background-color: #111;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  column-width: 600;
+}
+.bottom h3{
+  font-size: 17px;
+  color: #8b8b8b;
+}
+.bottom p{
+  font-size: 12px;
+  color: #8b8b8b;
+}
