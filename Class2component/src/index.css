@@ -1,0 +1,14 @@
+*{
+  color:#fff;
+}
+html
+body{
+  width:100%;
+  background-color: black;
+}
+.card{
+  background:pink;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px;
+}
